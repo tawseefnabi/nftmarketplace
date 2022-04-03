@@ -48,3 +48,21 @@ Next, change into the new directory and install the dependencies using a package
   web3modal @openzeppelin/contracts ipfs-http-client \
   axios
 ```
+
+Setting up Tailwind CSS
+We'll be using [Tailwind CSS](https://tailwindcss.com/) for styling, we we will set that up in this step.
+
+Tailwind is a utility-first CSS framework that makes it easy to add styling and create good looking websites without a lot of work.
+
+Next, install the Tailwind dependencies:
+
+```sh
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+```
+
+Next, we will create the configuration files needed for Tailwind to work with Next.js `tailwind.config.js` and `postcss.config.js` by running the following command:
+
+```sh
+npx tailwindcss init -p
+```
